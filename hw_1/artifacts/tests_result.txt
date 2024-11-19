@@ -1,0 +1,39 @@
+nl tests
+============================= test session starts =============================
+platform win32 -- Python 3.13.0, pytest-7.4.4, pluggy-1.0.0 -- C:\Users\vlkra\miniconda3\envs\hw_1\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\vlkra\dev\python_itmo_course\hw_1
+collecting ... collected 2 items
+
+tests/nl_tests.py::test_nl_file PASSED                                   [ 50%]
+tests/nl_tests.py::test_nl_stdin PASSED                                  [100%]
+
+============================== 2 passed in 0.02s ==============================
+tail tests
+============================= test session starts =============================
+platform win32 -- Python 3.13.0, pytest-7.4.4, pluggy-1.0.0 -- C:\Users\vlkra\miniconda3\envs\hw_1\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\vlkra\dev\python_itmo_course\hw_1
+collecting ... collected 4 items
+
+tests/tail_tests.py::test_tail_1file PASSED                              [ 25%]
+tests/tail_tests.py::test_tail_3files PASSED                             [ 50%]
+tests/tail_tests.py::test_tail_1file_default_lines PASSED                [ 75%]
+tests/tail_tests.py::test_tail_stdin PASSED                              [100%]
+
+============================== 4 passed in 0.03s ==============================
+wc tests
+============================= test session starts =============================
+platform win32 -- Python 3.13.0, pytest-7.4.4, pluggy-1.0.0 -- C:\Users\vlkra\miniconda3\envs\hw_1\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\vlkra\dev\python_itmo_course\hw_1
+collecting ... collected 6 items
+
+tests/wc_tests.py::test_wc_1file PASSED                                  [ 16%]
+tests/wc_tests.py::test_wc_2files PASSED                                 [ 33%]
+tests/wc_tests.py::test_wc_stdin PASSED                                  [ 50%]
+tests/wc_tests.py::test_wc_stdin_lines PASSED                            [ 66%]
+tests/wc_tests.py::test_wc_stdin_words PASSED                            [ 83%]
+tests/wc_tests.py::test_wc_stdin_chars PASSED                            [100%]
+
+============================== 6 passed in 0.03s ==============================
