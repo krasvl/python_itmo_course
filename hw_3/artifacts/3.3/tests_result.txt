@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.0, pytest-7.4.4, pluggy-1.0.0 -- C:\Users\vlkra\miniconda3\envs\hw_3\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\vlkra\dev\itmo_python\hw_3
+collecting ... collected 7 items
+
+src/matrix_hash_tests.py::test_matrix_hash_collisions PASSED             [ 14%]
+src/matrix_hash_tests.py::test_matrix_hash_equal1 PASSED                 [ 28%]
+src/matrix_hash_tests.py::test_matrix_hash_diff1 PASSED                  [ 42%]
+src/matrix_hash_tests.py::test_matrix_hash_equal2 PASSED                 [ 57%]
+src/matrix_hash_tests.py::test_matrix_hash_diff2 PASSED                  [ 71%]
+src/matrix_hash_tests.py::test_matrix_hash_equal3 PASSED                 [ 85%]
+src/matrix_hash_tests.py::test_matrix_hash_diff3 PASSED                  [100%]
+
+============================== 7 passed in 0.11s ==============================
