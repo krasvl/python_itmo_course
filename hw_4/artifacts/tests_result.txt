@@ -1,0 +1,37 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.0, pytest-7.4.4, pluggy-1.5.0 -- C:\Users\vlkra\miniconda3\envs\hw_4\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\vlkra\dev\itmo_python\hw_4
+collecting ... collected 4 items
+
+src/fibonachi_tests.py::test_fibonacci_base PASSED                       [ 25%]
+src/fibonachi_tests.py::test_fibonacci_performance_30_5[5] PASSED        [ 50%]
+src/fibonachi_tests.py::test_fibonacci_performance_30_5[10] PASSED       [ 75%]
+src/fibonachi_tests.py::test_fibonacci_performance_30_5[20] PASSED       [100%]
+
+============================= 4 passed in 10.24s ==============================
+============================= test session starts =============================
+platform win32 -- Python 3.13.0, pytest-7.4.4, pluggy-1.5.0 -- C:\Users\vlkra\miniconda3\envs\hw_4\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\vlkra\dev\itmo_python\hw_4
+collecting ... collected 6 items
+
+src/integrate_tests.py::test_integrate_base PASSED                       [ 16%]
+src/integrate_tests.py::test_integrate_performance[1] PASSED             [ 33%]
+src/integrate_tests.py::test_integrate_performance[2] PASSED             [ 50%]
+src/integrate_tests.py::test_integrate_performance[4] PASSED             [ 66%]
+src/integrate_tests.py::test_integrate_performance[8] PASSED             [ 83%]
+src/integrate_tests.py::test_integrate_performance[16] PASSED            [100%]
+
+============================= 6 passed in 13.73s ==============================
+============================= test session starts =============================
+platform win32 -- Python 3.13.0, pytest-7.4.4, pluggy-1.5.0 -- C:\Users\vlkra\miniconda3\envs\hw_4\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\vlkra\dev\itmo_python\hw_4
+collecting ... collected 3 items
+
+src/processes_tests.py::test_process_communication[TEST1\nTEST2\nSTOP] PASSED [ 33%]
+src/processes_tests.py::test_process_communication[TEST1\nTEST2\nTEST3\nTEST4\nSTOP] PASSED [ 66%]
+src/processes_tests.py::test_process_communication[TeSt1\ntEsT2\nSTOP] PASSED [100%]
+
+============================= 3 passed in 40.78s ==============================

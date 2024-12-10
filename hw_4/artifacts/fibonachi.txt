@@ -1,0 +1,12 @@
+Sync	 exec time for n: 30	 n_tasks: 5	 res: 0.63 sec
+Thread	 exec time for n: 30	 n_tasks: 5	 res: 0.62 sec
+Process	 exec time for n: 30	 n_tasks: 5	 res: 0.39 sec
+
+Sync	 exec time for n: 30	 n_tasks: 10	 res: 1.22 sec
+Thread	 exec time for n: 30	 n_tasks: 10	 res: 1.23 sec
+Process	 exec time for n: 30	 n_tasks: 10	 res: 0.45 sec
+
+Sync	 exec time for n: 30	 n_tasks: 20	 res: 2.51 sec
+Thread	 exec time for n: 30	 n_tasks: 20	 res: 2.50 sec
+Process	 exec time for n: 30	 n_tasks: 20	 res: 0.66 sec
+
